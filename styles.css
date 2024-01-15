@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+  }
+  
+  canvas {
+    display: block;
+  }
+  
+  .birthday-text {
+    position: absolute;
+    top: 40%; /* Adjusted the position for better visibility */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FF4081; /* Changed the text color to a pink shade */
+    font-family: "Pacifico", cursive; /* Changed the font to a more decorative one */
+    font-size: 3em; /* Adjusted the font size for better proportion */
+    font-weight: 700; /* Adjusted the font weight */
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
